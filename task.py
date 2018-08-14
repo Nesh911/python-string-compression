@@ -1,5 +1,5 @@
 # Первый вариант который я пытался сделать при беседе.
-s = "AeAASQQQWSSDDDFFFGHJ"
+s = "AAAQQQWSSDDDFFFGHJ"
 d = {}
 t = ""
 
@@ -17,6 +17,7 @@ for k in d.keys():
     else:
         t += k
 print(t)
+# В данном примере получаем "A3Q3WS2D3F3GHJ"
 
 
 # Изначально просто добавил replase чтобы убрать "1"
